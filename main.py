@@ -1,16 +1,49 @@
-# This is a sample Python script.
+print("hello world")
+'''data and variables'''
+name = "Aditya"
+age = 778.2344
+print("my name is aditya")
+print("i am 18 years old")
+a = True
+"""Strings"""
+print("aditya\n punetha")
+print("aditya\" punetha")
+word = "Aditya Punetha"
+print(word)
+print(word + "is a कूल डूड ")
+print(word.lower())
+print(word.islower())
+print(word.upper().isupper())
+print(len(word))
+print(word[3])
+print(word.index("t"))
+print(word.index("a"))
+print(word.index("Pun"))
+print(word.replace("Punetha", "Singh"))
+"""Numbers"""
+print(2)
+print(2.5)
+print(2 + 3)
+print(3 ** 3.5)
+print(3 * (4 + 5))
+num = 5
+print(str(num))
+print(max(2, 3))
+print(min(2, 3))
+import math
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(math.floor(4.6))
+print(math.ceil(4.6))
+print(math.sqrt(81))
+"""Input"""
+input()
+input("Enter your name: ")
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + " ! You are " + age + " years old!")
+"Basic Calc"
+num1 = input("Enter a no.: ")
+num2 = input("Enter 2nd no.: ")
+result = num1 + num2
+print(result)
+'''Lists'''
