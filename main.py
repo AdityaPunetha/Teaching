@@ -47,3 +47,16 @@ num2 = input("Enter 2nd no.: ")
 result = num1 + num2
 print(result)
 '''Lists'''
+friends = ["Aditya", "Dhanraj", "Medhavi", "Rohan", "Sid"]
+list = ["Punetha", 2, True]
+print(list)
+print(*list)
+print(list[1])
+print(list[-1])
+print(list[1:])
+friends[1] = "hello"
+fav_no = [2, 3, 1, 46, 6]
+friends.extend(fav_no)
+friends.append("world")
+friends.insert(1, "adi")
+friends.remove("Sid")
