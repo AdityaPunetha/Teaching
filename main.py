@@ -145,3 +145,12 @@ months = {
 '''For'''
 for letters in "aditya":
     print(letters)
+for friend in friends:
+    print(friend)
+for i in range(10):
+    print(i)
+for i in range(3,10):
+    print(i)
+    for i in range(len(friends)):
+        print(i)
+
