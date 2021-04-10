@@ -60,3 +60,88 @@ friends.extend(fav_no)
 friends.append("world")
 friends.insert(1, "adi")
 friends.remove("Sid")
+friends.clear()
+friends.pop()
+print(friends.index("adi"))
+print(friends.count("adi"))
+friends.sort()
+a = sorted(friends)
+friends.reverse()
+friends2 = friends.copy()
+'''Tuples'''
+numbers = (2, 3)
+numbers[1] = 7
+numbers = [(2, 3), (4, 5), (3, 6)]
+'''Functions'''
+
+
+def say_hi():
+    print("Hi")
+
+
+say_hi()
+
+
+def sayhi(name, age):
+    print("Hi " + name + " " + age)
+
+
+sayhi("ADitty]", 88)
+'''return'''
+
+
+def cube(x):
+    return x ^ 3
+
+
+print(cube(4))
+result = cube(3)
+print(result)
+'''If'''
+is_male = True
+if is_male:
+    print("You are a male")
+else:
+    print("not male")
+tall = True
+if is_male or tall:
+    print("male or tall")
+
+if is_male and tall:
+    print("male and tall")
+elif is_male and not tall:
+    print("male n not tall")
+elif not is_male and tall:
+    print("tall girl")
+else:
+    print("short girl")
+
+'''if comparisons'''
+
+
+def maxno(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= c and b >= a:
+        return b
+    else:
+        return c
+
+
+print(maxno(1, 3, 5))
+if "abc" == "abc":
+    pass
+'''dict'''
+months = {
+    "jan": "january", "feb": "february", "mar": "march"
+}
+print(months["feb"])
+print(months.get("mar"))
+print(months.get("monday", "not valid"))
+months = {
+    1: "january", 2: "february", 3: "march"
+}
+'''while'''
+'''For'''
+for letters in "aditya":
+    print(letters)
